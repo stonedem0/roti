@@ -10,7 +10,7 @@ const (
 )
 
 //Test for a table builder
-func Test(t *testing.T) {
+func TestTable_AddRow(t *testing.T) {
 	table := Table{}
 	stonedemo := []string{"https://stonedemo.wtf", "42s", "142ms", "4242ms"}
 	apex := []string{"https://apex.sh", "42s", "142ms", "4242ms"}
